@@ -1,0 +1,44 @@
+{
+  "name": "venueapp",
+  "version": "1.0.0",
+  "description": "Bartlett Venue website",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianecandler/venueApp.git"
+  },
+  "keywords": [
+    "venue",
+    "Bartlett",
+    "Pesky",
+    "Rabbit",
+    "Mockingbird",
+    "Market",
+    "Photoshoot",
+    "photo",
+    "shoot"
+  ],
+  "author": "Conner McBride, Changyeon Daniel Hong, Vanessa Taylor, Stephen Guzman, Diane Candler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianecandler/venueApp/issues"
+  },
+  "homepage": "https://github.com/dianecandler/venueApp#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.4"
+  }
+}
