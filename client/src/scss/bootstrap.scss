@@ -1,0 +1,73 @@
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+// sequence of the items below is critical - DO NOT CHANGE
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+
+//font  URL:  https://coolors.co/102542-f87060-cdd7d6-b3a394-ffffff
+
+// Below is not a completed template but should help guide the team
+body {
+    background-color: $light-gray;
+    font-weight: $font-weight-normal;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+
+    h1 {
+        font-size: 40px;
+        color: $oxford-blue;
+        font-family: $title-copy;
+    }
+
+    a {
+        color: $bittersweet;
+
+        &:hover {
+            color: red;
+        }
+    }
+    p  {
+        color: $light-black;
+    }
+}

@@ -1,0 +1,8 @@
+✔ Set-Up NPM @done (9/16/2020, 10:32:02 AM)
+✔ Add dependencies - axios, express, concurrently, mongoose, if-env, nodemon @done (9/16/2020, 10:36:35 AM)
+✔ Add MongoDB and Express @done (9/16/2020, 10:52:10 AM)
+✔ Add empty route, model, constrollers @done (9/16/2020, 10:53:33 AM)
+✔ Add if-env and concurrently to connect React @done (9/16/2020, 11:02:11 AM)
+✔ Add React @done (9/16/2020, 11:02:20 AM)
+    ✔ remove unnecessary files @done (9/16/2020, 11:02:26 AM)
+    ✔ add SCSS and connect to main file - SCSS w/fonts & color in Variables file @done (9/16/2020, 11:33:27 AM) (npm i node-sass)
