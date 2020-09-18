@@ -25,3 +25,12 @@ body {
         color: $light-black;
     }
 }
+
+
+.nav-link {
+    color: $primary !important;
+}
+
+.logo {
+    color: darken($secondary, 20%) !important;
+}

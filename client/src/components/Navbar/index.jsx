@@ -4,7 +4,7 @@ export default function index() {
     return (
         // ! bootstrap navbar from https://getbootstrap.com/docs/4.5/components/navbar/
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="/">
+            <a className="navbar-brand logo" href="/">
                 {/* //todo add logo here & remove Bartlett Venue text */}
                 {/* <img src="" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" /> */}
                     Bartlett Venue
