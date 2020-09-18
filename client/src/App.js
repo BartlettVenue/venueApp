@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
+// Components
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      Welcome to Bartlett Venue!
+      <Navbar />
     </div>
   );
 }

@@ -1,3 +1,4 @@
+16-Setup Files:
 ✔ Set-Up NPM @done (9/16/2020, 10:32:02 AM)
 ✔ Add dependencies - axios, express, concurrently, mongoose, if-env, nodemon @done (9/16/2020, 10:36:35 AM)
 ✔ Add MongoDB and Express @done (9/16/2020, 10:52:10 AM)
@@ -6,3 +7,17 @@
 ✔ Add React @done (9/16/2020, 11:02:20 AM)
     ✔ remove unnecessary files @done (9/16/2020, 11:02:26 AM)
     ✔ add SCSS and connect to main file - SCSS w/fonts & color in Variables file @done (9/16/2020, 11:33:27 AM) (npm i node-sass)
+18-Navbar: 
+    ✔ create component @done (9/18/2020, 11:13:18 AM)
+    ✔ add to app.js @done (9/18/2020, 11:15:50 AM)
+    ☐ use bootstrap to add nabvar on top
+        ☐ Left 
+            ☐ Bartlett Venue logo
+        ☐ Right
+            ☐ Venue Rental
+            ☐ Photoshoot
+            ☐ Calendar
+            ☐ About us
+            ☐ Contact us
+    ☐ Add links
+    ☐ Add CSS later
