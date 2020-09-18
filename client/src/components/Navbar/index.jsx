@@ -4,7 +4,7 @@ export default function index() {
     return (
         // ! bootstrap navbar from https://getbootstrap.com/docs/4.5/components/navbar/
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
                 {/* //todo add logo here & remove Bartlett Venue text */}
                 {/* <img src="" width="30" height="30" className="d-inline-block align-top" alt="" loading="lazy" /> */}
                     Bartlett Venue
@@ -16,19 +16,19 @@ export default function index() {
                 <div className="collapse navbar-collapse navbar justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">VENUE RENTAL</a>
+                            <a className="nav-link" href="/venue-rental">VENUE RENTAL</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">PHOTOSHOOT</a>
+                            <a className="nav-link" href="/photoshoot">PHOTOSHOOT</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">CALENDAR</a>
+                            <a className="nav-link" href="/calendar">CALENDAR</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">ABOUT US</a>
+                            <a className="nav-link" href="/about">ABOUT US</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">CONTACT US</a>
+                            <a className="nav-link" href="/contact">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
